@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>investimento</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <script src="index.js"></script>
+
+    <label for="capitalinicial"></label>
+    <input type="text" id="capitalinicial" name="capitalinicial" placeholder="Capital Inicial">
+
+    <label for="taxa"></label>
+    <input type="text" id="taxa" name="taxa" placeholder="Taxa">
+
+    <label for="tempo"></label>
+    <input type="text" id="tempo" name="tempo" placeholder="tempo">
+
+    <button type="submit" onclick="jurosSimples()">Juros Simples</button>
+    <button type="submit" onclick="jurosCompostos()">Juros Compostos</button>
+
+    <p id="resultado"></p>
+</body>
+</html>
